@@ -44,8 +44,8 @@ class DevicePrefix extends PluginBase implements Listener {
 			$playerName, $this->playerDevices[$playerName]['DeviceName']
 		));
 		$player->setDisplayName(sprintf(
-			'§a[%s§a] §r%s', // Display name format
 			$this->playerDevices[$playerName]['DeviceName'], $playerName
+			'§a[%s§a] §r%s', // Better
 		));
 	}
 
